@@ -1,0 +1,121 @@
+/*FAQS Page Start */
+.container {
+  margin-top: 0 !important;
+  padding:0 !important;
+  width: 100% !important;
+}
+
+.page-heading{
+  text-align: center;
+  color: #333333;
+
+}
+
+
+.page-heading h2 {
+    font-size: 28px;
+    font-family: Roboto-Medium;
+    margin-bottom: 0;
+
+}
+
+.page-heading .hr {
+    display: inline-block;
+    width: 80px;
+    height: 3px;
+    background: #ff5a5a;
+    margin: 5px 0 20px 0;
+}
+
+.page-description {
+    background: linear-gradient(to right, #CF007C , #560056);
+    padding:20px 0;
+    text-align: center;
+    color: #fff;
+    margin:0 0 10px 0;
+}
+
+.page-description h4 {
+    font-size: 22px;
+    font-family: 'Roboto-Regular';
+    font-weight: normal;
+    margin: 10px 0 !important;
+
+}
+
+.page-description h4 span {
+    display: block;
+    font-size: 20px;
+    opacity: 0.8;
+    font-family: 'Roboto-Light';
+}
+
+.panel-group {
+  padding: 0 147px 50px 147px !important;
+
+}
+
+.panel-group h3 {
+  font-family: Roboto-Regular;
+  padding: 50px 0 10px 0;
+
+}
+
+.panel-body p {
+  font-family: Roboto-light;
+  opacity: 0.6;
+  font-size: 20px;
+
+}
+
+.panel-heading {
+  padding: 15px 15px !important;
+}
+
+.panel {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.panel-title {
+  font-size: 22px;
+  opacity: 0.75 !important;
+  font-family: Roboto-Regular;
+}
+
+@media only screen and (max-width: 768px) {
+  .page-heading h2 {
+    font-size: 15px;
+  }
+
+  .page-description h4 {
+    font-size: 15px;
+
+  }
+  .page-description h4 span {
+    font-size: 12px;
+    padding-top: 3px;
+  }
+
+  .panel-group h3 {
+    font-size: 15px;
+
+  }
+  .panel-group {
+    padding: 0 32px !important;
+
+  }
+  .panel-title {
+    font-size: 15px;
+  }
+
+  .panel-body p {
+    font-size: 13px;
+  }
+
+  .page-description {
+    padding: 10px 0;
+  }
+
+
+}
